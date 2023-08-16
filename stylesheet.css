@@ -1,0 +1,1690 @@
+body{
+    margin:0px;
+    padding: 0px;
+    height:5000px;
+   background-color: black;
+   font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Teko', sans-serif;
+}
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+
+.logo{
+    position: sticky;
+    top:0.1px;
+    /* border:2px solid white; */
+    background: url("https://cdn131.picsart.com/283975465038211.png?r1024x1024")no-repeat center center/cover;
+    width:200px;
+    height: 70px;
+    font-size: 1px;
+}
+.navbar{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items:center; 
+   justify-content: right;
+   /* border:2px pink solid; */
+   width:50%;
+   position: absolute; 
+   right:20px;
+}
+.nav{
+    position: sticky;
+    /* border: 2px white solid; */
+    top:5px;
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-items: center;
+   margin-top: 8px;
+   font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Teko', sans-serif;
+   font-size:22px;
+   z-index: 1;
+   box-shadow: 2px 0px 2px pink;
+}
+
+@keyframes bar{
+    from{
+       margin-right:37px;
+    }
+    to{
+        margin-right:20px;
+    }
+}
+
+.nav a{
+ margin: 0px 25px;
+ text-decoration: none;
+  color:pink;
+
+   margin-right:20px;
+
+  animation-name: bar;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction:alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 22.2px;
+}
+
+
+.info{
+    border: pink 1px solid;
+    box-shadow: pink 7px 7px 7px;
+    height: 400px;
+    width:98.8%;
+    position: absolute;
+    top:4590px;
+    margin-left: 2.5px;
+}
+
+#logo{
+    position: sticky;
+    top:0.1px;
+    
+    background: url("https://cdn131.picsart.com/283975465038211.png?r1024x1024")no-repeat center center/cover;
+    width:500px;
+    height: 200px;
+    
+   
+    font-size: 1px;
+}
+
+.email input:hover{
+    border:3px pink solid;
+    
+}
+
+.email button:hover{
+    border:3px white solid;
+    scale:1.1;
+    
+}
+.email textarea:hover{
+    border:3px pink solid;
+    scale:1.001;
+    
+}
+
+.email input{
+    font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Teko', sans-serif;
+   width:200px;
+   height: 25px;
+   display: inline-block;
+   margin:5px;
+}
+
+.email button{
+    font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Teko', sans-serif;
+   display: inline-block;
+   height: 30px;
+   width:170px;
+   margin:10px;
+   position: relative;
+   left:300px;
+   bottom: -20px;
+   background-color: pink;
+   box-sizing: border-box;
+}
+
+.email{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    top:10px;
+    right:20px;
+    color:pink;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+    min-width:500px;
+    min-height: 370px;
+    box-shadow: pink 3px 3px 7px; 
+    padding-left:20px;
+   
+    margin-top: 5px;
+}
+
+.email h4{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-size:xx-large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.info2 ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.info2 a:hover{
+    color:white;
+    text-decoration: underline;
+    font-size: 21px;
+}
+.info2 a{
+    color:pink;
+    text-decoration: none;
+}
+.info2{
+    display: inline-block;
+    color:pink;
+    /* border:2px pink solid; */
+    min-width: 600px;
+    font-size: 20px;
+}
+
+footer{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+.email textarea{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+    display: block;
+    position:relative;
+    left:26px;
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+
+.bab{
+    background: url("https://officiallykmusic.s3.ap-southeast-2.amazonaws.com/kmusic/wp-content/uploads/2022/09/blackpink-shut-down-mv.png")no-repeat center center/cover;
+    height: 470px;
+    width: 99%;
+    margin-top: 10px;
+    box-shadow: 7px 7px 7px pink;
+    border:3px white solid;
+
+    
+
+    animation-name: photos ;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: all ease-in .1s;   
+    
+}
+
+
+
+
+@keyframes photos{
+
+    30%{
+        background: url("https://www.nme.com/wp-content/uploads/2022/08/blackpink-pink-venom-mtv-vmas-2022.jpg")no-repeat center center/cover;
+    }
+    40%{
+        
+        background: url("https://4.bp.blogspot.com/-RQWeIsZdzfQ/X0nyzj00TOI/AAAAAAAAB2k/SO_uNUuqvKgvmoiQtvVH6UcT5RFtnTR2wCNcBGAsYHQ/w914-h514-p-k-no-nu/jisoo-blackpink-ice-cream-uhdpaper.com-4K-7.2612-wp.thumbnail.jpg")no-repeat center center/cover;
+    }
+    70%{
+        background: url("https://1409791524.rsc.cdn77.org/data/images/full/577018/blackpink-ros.jpg")no-repeat center center/cover;
+    }
+    80%{
+        background: url("https://filmdaily.co/wp-content/uploads/2020/03/Blackpink-Jennie-lede.jpg")no-repeat center center/cover;
+
+    }
+    99%{
+        background: url("https://akns-images.eonline.com/eol_images/Entire_Site/2019726/rs_1024x620-190826230248-lisa-main.jpg?fit=around%7C1024:auto&output-quality=90&crop=1024:auto;center,top")no-repeat center center/cover;
+
+    }
+
+}
+
+.merch h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Teko', sans-serif;
+    color:pink;
+    /* border:1px pink solid; */
+    width:98%;
+    position: relative;
+    top:100px;
+    font-size: xx-large;
+    text-align: center;
+    box-shadow: 5px 5px 8px pink;
+}
+
+.box{
+    border:pink 4px solid;
+    width:200px;
+    height:290px;
+    box-shadow: 4px 3px 5px pink;
+}
+ 
+.merchback{
+    width:98%;
+    height:350px;
+    border:white 1px solid;
+    position: relative;
+    top:-220px;
+    z-index: -1;
+}
+
+.merchitems{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:130px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+  
+}
+
+.merchitems2{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:-100px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+   
+    border:white 1px solid;
+}
+
+
+
+.lightstick{
+    background: url("https://akamai.poxo.com/ygnext/ygnext.cafe24.com/web/upload/NNEditor/20201112/detail_04_shop1_140943.jpg")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    
+}
+.lightstick:hover{
+    background: url("https://en.ygselect.com/web/product/extra/small/202011/1e4fe6f1753ba45222be98dee8df2018.jpg")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+}
+
+.keychain{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BLACKPINK_KEYCHAIN_FRONT.png?v=1675983946")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.keychain:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BLACKPINK_KEYCHIN_LIT.png?v=1675983946")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+
+.hoodies{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/files/BP_SHUTDOWN_HOODIE_FRONT.png?v=1682465598")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.hoodies:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/files/BP_SHUTDOWN_HOODIE_DETAIL.png?v=1682465605")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.tshirt{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_PINKVENOMTEE_FRONT.png?v=1681413329")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.tshirt:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_PINKVENOMTEE_DETAIL.png?v=1681413332")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.caps{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_DADHAT_FRONT.png?v=1681414758")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.caps:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_DADHAT_BACK.png?v=1681414758")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.box h4{
+    color:pink;
+    font-size: 20px;
+    
+    text-align: center;
+    position:relative;
+    bottom:21px;
+    /* border:2px white solid; */
+}
+
+
+.tradingcr{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_CARDS_GROUP.png?v=1681232374")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.tradingcr:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_CARDS_OPEN.png?v=1681232390")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.necklace{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/pinbkvennecklace.png?v=1681229112")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.necklace:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_NECKLACE_CLOSED.png?v=1681229112")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.brallet{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/bralette.png?v=1681415983")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.brallet:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/bralette.png?v=1681415983")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.wallet{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/KRUNK_X_BLACKPINK_IN_YOUR_AREA_POUCH.png?v=1556719588")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.wallet:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/KRUNK_X_BLACKPINK_IN_YOUR_AREA_POUCH.png?v=1556719588")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+.handbags{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_album_tote1.png?v=1601337887")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    background-color: white;
+}
+.handbags:hover{
+    background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_album_tote2.png?v=1601337887")no-repeat center center;
+    background-size: cover;
+    height:250px;
+    width:200px;
+    scale:1.1;
+    background-color: white;
+}
+
+
+.albums h2{
+    color:pink;
+    border:1px pink solid;
+    width:98%;
+    position: relative;
+    top:20px;
+    font-size: xx-large;
+    text-align: center;
+    box-shadow: 5px 5px 8px pink;
+   
+}
+
+.acontainer1 h4{
+    color:pink;
+    font-size: 20px;
+    
+    text-align: center;
+    position:relative;
+    bottom:21px;
+    /* border:2px white solid; */
+}
+
+.acontainer1{
+    border:pink 4px solid;
+    width:250px;
+    height:320px;
+    box-shadow: -6px -6px 5px white;
+}
+
+.album1{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:130px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+    margin-left: auto;
+}
+
+.album2{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:230px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+    margin-left: auto;
+}
+.album3{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:350px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+    margin-left: auto;
+}
+
+.album4{
+    
+    width:98%;
+    height:350px;
+    position: relative;
+    top:450px;
+    /* box-shadow: white 4px 4px 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 0.9;
+    margin-left: auto;
+}
+
+.bornpinkP{
+    background: url("https://cdn-contents.weverseshop.io/public/shop/04157e5fb9472c1ad868e9fb2c7b8b01.png?q=95&w=720")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.bornpinkP:hover{
+    background: url("img/pinkver.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+}
+
+.bornpinkB{
+    background: url("https://cdn-contents.weverseshop.io/public/shop/4a6ecb833fc4fe5f0d1a9c27857617fc.png?q=95&w=720")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.bornpinkB:hover{
+    background: url("https://www.picclickimg.com/wm4AAOSwiE9jIHg-/Blackpink-Born-Pink-Standard-Cd-Boxset.jpg")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.bornpinkG{
+    background: url("https://cdn-contents.weverseshop.io/public/shop/528a2a77dc055b58f8ed683ad02ee1da.png?q=95&w=720")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.bornpinkG:hover{
+    background: url("https://stylecaster.com/wp-content/uploads/2022/08/Born-Pink-BLACKPINK.jpg?w=670")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+
+.hylt{
+    background: url("img/HYLT.jpg")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.hylt:hover{
+    background: url("img/HYLTH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.thB{
+    background: url("img/TAB.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.thB:hover{
+    background: url("img/THBH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.thP{
+    background: url("img/THP.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.thP:hover{
+    background: url("img/THPH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.ktlB{
+    background: url("img/ktlB.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.ktlB:hover{
+    background: url("img/ktlBH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.ktlP{
+    background: url("img/ktlP.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.ktlP:hover{
+    background: url("img/ktlPH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.sqP{
+    background: url("img/SqP.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.sqP:hover{
+    background: url("img/SqPH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.sqB{
+    background: url("img/SqB.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.sqB:hover{
+    background: url("img/SqBH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.jisoo{
+    background: url("img/jisoo.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.jisoo:hover{
+    background: url("img/jisooH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.jennie{
+    background: url("img/jennie.jpg")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.jennie:hover{
+    background: url("img/jennieH.jpg")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.rose{
+    background: url("img/rose.jpg")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.rose:hover{
+    background: url("img/roseH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.lisa{
+    background: url("img/lisa.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    
+}
+.lisa:hover{
+    background: url("img/lisaH.png")no-repeat center center;
+    background-size: cover;
+    height:270px;
+    width:250px;
+    scale:1.1;
+    background-color: white;
+}
+
+.albums a{
+   text-decoration: none;
+}
+
+
+.albums a:hover{
+    cursor:default;
+ }
+
+
+ .merchitems a{
+    text-decoration: none;
+ }
+ 
+ 
+ .merchitems2 a:hover{
+     cursor:default;
+  }
+
+  .merchitems2 a{
+    text-decoration: none;
+ }
+ 
+ 
+ .merchitems a:hover{
+     cursor:default;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* for mobile screen */
+  @media only screen and (max-width:390px) and (min-width:340px) {
+
+    body{
+        margin:0px;
+        padding: 0px;
+        height:10500px;
+       background-color: black;
+       font-family: 'Space Grotesk', sans-serif;
+       font-family: 'Teko', sans-serif;
+    }
+
+    .logo{
+        position: sticky;
+        top:0.1px;
+        /* border:2px solid white; */
+        background: url("https://cdn131.picsart.com/283975465038211.png?r1024x1024")no-repeat center center/cover;
+        width:100vw;
+        height: 100px;
+        font-size: 1px;
+    }
+    .navbar{
+        display: flex;
+        
+        flex-direction: row;
+        align-items:center; 
+       justify-content: left; 
+       /* border:2px pink solid; */
+       min-width:100vw;
+       position: absolute; 
+       left:2px;
+       top:100px;
+       font-size: 15px;
+       
+    }
+
+    .nav{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        position: sticky;
+          
+        /* border: 2px white solid; */
+        top:5px;
+        min-width:100vw;
+        height:180px;
+       
+       margin-top: 8px;
+       font-family: 'Space Grotesk', sans-serif;
+       font-family: 'Teko', sans-serif;
+       font-size:15px;
+       z-index: 1;
+       box-shadow: 2px 0px 2px pink;
+    }
+
+    .nav a{
+        margin: 10px 15px;
+        text-decoration: none;
+         color:pink;
+       
+          
+          
+         animation-name: bar;
+         animation-duration: 2s;
+         animation-iteration-count: 1;
+         animation-direction:alternate;
+         animation-timing-function: ease-in-out;
+       }
+
+       @keyframes bar{
+        from{
+           /* margin-right:37px; */
+        }
+        to{
+            /* margin-right:20px; */
+        }
+        }
+
+       .nav a:hover{
+           text-decoration: underline;
+           color: white;
+           font-size: 16px;
+       }
+       
+       
+       .info{
+           border: pink 1px solid;
+           box-shadow: pink 7px 7px 7px;
+           height: 680px;
+           min-width:98vw;
+           position: absolute;
+           top:9990px;
+           /* margin-left: 2.5px; */
+       }
+       
+       #logo{
+           position: relative;
+           top:-20px;
+           left:0px;
+           background: url("https://cdn131.picsart.com/283975465038211.png?r1024x1024")no-repeat center center/cover;
+           width:70vw;
+           height: 30vw;
+           font-size: 1px;
+       }
+       
+       .email input:hover{
+           border:3px pink solid;
+           
+       }
+       
+       .email button:hover{
+           border:3px white solid;
+           scale:1.1;
+           
+       }
+       .email textarea:hover{
+           border:3px pink solid;
+           scale:1.001;
+           
+       }
+       
+       .email input{
+           font-family: 'Space Grotesk', sans-serif;
+          font-family: 'Teko', sans-serif;
+          width:200px;
+          height: 25px;
+          display: flex;
+          margin:5px auto;
+          align-content: center;
+       }
+       
+       .email button{
+           font-family: 'Space Grotesk', sans-serif;
+          font-family: 'Teko', sans-serif;
+          display: inline-block;
+          height: 30px;
+          width:170px;
+          margin:10px;
+          position: relative;
+          left:300px;
+          bottom: -5px;
+          background-color: pink;
+          box-sizing: border-box;
+          
+       }
+       
+       .email{
+           position: absolute;
+           display:flex;
+           flex-direction: column;
+           top:190px;
+           right:20px;
+           color:pink;
+           font-family: 'Space Grotesk', sans-serif;
+           font-family: 'Teko', sans-serif;
+           min-width:500px;
+           height: 474px;
+           box-shadow: pink 3px 3px 7px; 
+           padding-left:20px;
+          
+           margin-top: 5px;
+       }
+       
+       .email h4{
+           font-family: 'Space Grotesk', sans-serif;
+           font-family: 'Teko', sans-serif;
+           font-size:xx-large;
+           align-items: center;
+           /* border:2px black solid; */
+           display: flex;
+           padding-left:180px;
+       }
+       
+       .info2 ul{
+           display: flex;
+           flex-direction:row;
+           justify-content: space-between;
+           align-items: center;
+       
+       }
+       .info2 a:hover{
+           color:white;
+           text-decoration: underline;
+           font-size: 16px;
+       }
+       .info2 a{
+           color:pink;
+           text-decoration: none;
+       }
+       .info2{
+           display: inline-block;
+           color:pink;
+           /* border:2px pink solid; */
+           min-width: 90vw;
+           font-size: 15px;
+       }
+       
+       footer{
+           font-family: 'Space Grotesk', sans-serif;
+           font-family: 'Teko', sans-serif;
+       }
+       
+       .email textarea{
+           font-family: 'Space Grotesk', sans-serif;
+           font-family: 'Teko', sans-serif;
+           display: block;
+           position:relative;
+           left:146px;
+           margin-top: 7px;
+           box-sizing: border-box;
+       }
+       
+       .bab{
+           background: url("https://officiallykmusic.s3.ap-southeast-2.amazonaws.com/kmusic/wp-content/uploads/2022/09/blackpink-shut-down-mv.png")no-repeat center center/cover;
+           height: 270px;
+           max-width: 98vw;
+           margin-top: 10px;
+           box-shadow: 7px 7px 7px pink;
+           border:3px white solid;
+       
+           
+       
+           animation-name: photos ;
+           animation-duration: 35s;
+           animation-iteration-count: infinite;
+           animation-timing-function: all ease-in .1s;   
+           
+       }
+
+       @keyframes photos{
+
+        30%{
+            background: url("https://www.nme.com/wp-content/uploads/2022/08/blackpink-pink-venom-mtv-vmas-2022.jpg")no-repeat center center/cover;
+        }
+        40%{
+            
+            background: url("https://4.bp.blogspot.com/-RQWeIsZdzfQ/X0nyzj00TOI/AAAAAAAAB2k/SO_uNUuqvKgvmoiQtvVH6UcT5RFtnTR2wCNcBGAsYHQ/w914-h514-p-k-no-nu/jisoo-blackpink-ice-cream-uhdpaper.com-4K-7.2612-wp.thumbnail.jpg")no-repeat center center/cover;
+        }
+        70%{
+            background: url("https://1409791524.rsc.cdn77.org/data/images/full/577018/blackpink-ros.jpg")no-repeat center center/cover;
+        }
+        80%{
+            background: url("https://filmdaily.co/wp-content/uploads/2020/03/Blackpink-Jennie-lede.jpg")no-repeat center center/cover;
+    
+        }
+        99%{
+            background: url("https://akns-images.eonline.com/eol_images/Entire_Site/2019726/rs_1024x620-190826230248-lisa-main.jpg?fit=around%7C1024:auto&output-quality=90&crop=1024:auto;center,top")no-repeat center center/cover;
+    
+        }
+    
+    }
+
+
+
+
+
+
+
+    .merch h2{
+        font-family: 'Space Grotesk', sans-serif;
+        font-family: 'Teko', sans-serif;
+        color:pink;
+        /* border:1px pink solid; */
+        min-width:98vw;
+        position: relative;
+        top:100px;
+        font-size: xx-large;
+        text-align: center;
+        box-shadow: 5px 5px 8px pink;
+    }
+    
+    .box{
+        border:pink 4px solid;
+        width:200px;
+        height:290px;
+        box-shadow: 4px 3px 5px pink;
+        margin:20px;
+    }
+     
+    .merchback{
+        width:98%;
+        height:1750px;
+        border:white 1px solid;
+        position: relative;
+        top:-950px;
+        z-index: -1;
+    }
+
+    
+    .merchitems{
+        
+        min-width:98vw;
+        height:1050px;
+        position: relative;
+        top:130px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        z-index: 0.9;
+        
+    }
+    
+    .merchitems2{
+        
+        width:98%;
+        height:2050px;
+        position: relative;
+        top:-1000px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 0.9;
+       
+        /* border:white 1px solid; */
+    }
+    
+    
+    
+    .lightstick{
+        background: url("https://akamai.poxo.com/ygnext/ygnext.cafe24.com/web/upload/NNEditor/20201112/detail_04_shop1_140943.jpg")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        
+    }
+    .lightstick:hover{
+        background: url("https://en.ygselect.com/web/product/extra/small/202011/1e4fe6f1753ba45222be98dee8df2018.jpg")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+    }
+    
+    .keychain{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BLACKPINK_KEYCHAIN_FRONT.png?v=1675983946")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .keychain:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BLACKPINK_KEYCHIN_LIT.png?v=1675983946")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    
+    .hoodies{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/files/BP_SHUTDOWN_HOODIE_FRONT.png?v=1682465598")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .hoodies:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/files/BP_SHUTDOWN_HOODIE_DETAIL.png?v=1682465605")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .tshirt{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_PINKVENOMTEE_FRONT.png?v=1681413329")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .tshirt:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_PINKVENOMTEE_DETAIL.png?v=1681413332")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .caps{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_DADHAT_FRONT.png?v=1681414758")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .caps:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_DADHAT_BACK.png?v=1681414758")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .box h4{
+        color:pink;
+        font-size: 20px;
+        
+        text-align: center;
+        position:relative;
+        bottom:21px;
+        /* border:2px white solid; */
+    }
+    
+    
+    .tradingcr{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_CARDS_GROUP.png?v=1681232374")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .tradingcr:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_CARDS_OPEN.png?v=1681232390")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .necklace{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/pinbkvennecklace.png?v=1681229112")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .necklace:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_NECKLACE_CLOSED.png?v=1681229112")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .brallet{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/bralette.png?v=1681415983")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .brallet:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/bralette.png?v=1681415983")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .wallet{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/KRUNK_X_BLACKPINK_IN_YOUR_AREA_POUCH.png?v=1556719588")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .wallet:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/KRUNK_X_BLACKPINK_IN_YOUR_AREA_POUCH.png?v=1556719588")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .handbags{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_album_tote1.png?v=1601337887")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        background-color: white;
+    }
+    .handbags:hover{
+        background: url("https://shop.blackpinkmusic.com/cdn/shop/products/BP_album_tote2.png?v=1601337887")no-repeat center center;
+        background-size: cover;
+        height:250px;
+        width:200px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    
+    .albums h2{
+        color:pink;
+        border:1px pink solid;
+        width:98%;
+        position: relative;
+        top:-800px;
+        font-size: xx-large;
+        text-align: center;
+        box-shadow: 5px 5px 8px pink;
+       
+    }
+    
+    .acontainer1 h4{
+        color:pink;
+        font-size: 20px;
+        
+        text-align: center;
+        position:relative;
+        bottom:21px;
+        /* border:2px white solid; */
+    }
+    
+    .acontainer1{
+        border:pink 4px solid;
+        width:250px;
+        height:320px;
+        box-shadow: -6px -6px 5px white;
+        margin :23px;
+    }
+    
+    .album1{
+        
+        width:98%;
+        height:750px;
+        position: relative;
+        top:-730px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 0.9;
+        margin-left: auto;
+    }
+    
+    .album2{
+        
+        min-width:98vw;
+        height:750px;
+        position: relative;
+        top:-330px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 0.9;
+        margin-left: auto;
+    }
+    .album3{
+        
+        width:98%;
+        height:750px;
+        position: relative;
+        top:70px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 0.9;
+        margin-left: auto;
+    }
+    
+    .album4{
+        
+        width:98%;
+        height:750px;
+        position: relative;
+        top:480px;
+        /* box-shadow: white 4px 4px 5px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 0.9;
+        margin-left: auto;
+    }
+    
+    .bornpinkP{
+        background: url("https://cdn-contents.weverseshop.io/public/shop/04157e5fb9472c1ad868e9fb2c7b8b01.png?q=95&w=720")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .bornpinkP:hover{
+        background: url("img/pinkver.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+    }
+    
+    .bornpinkB{
+        background: url("https://cdn-contents.weverseshop.io/public/shop/4a6ecb833fc4fe5f0d1a9c27857617fc.png?q=95&w=720")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .bornpinkB:hover{
+        background: url("https://www.picclickimg.com/wm4AAOSwiE9jIHg-/Blackpink-Born-Pink-Standard-Cd-Boxset.jpg")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .bornpinkG{
+        background: url("https://cdn-contents.weverseshop.io/public/shop/528a2a77dc055b58f8ed683ad02ee1da.png?q=95&w=720")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .bornpinkG:hover{
+        background: url("https://stylecaster.com/wp-content/uploads/2022/08/Born-Pink-BLACKPINK.jpg?w=670")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    
+    .hylt{
+        background: url("img/HYLT.jpg")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .hylt:hover{
+        background: url("img/HYLTH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .thB{
+        background: url("img/TAB.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .thB:hover{
+        background: url("img/THBH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .thP{
+        background: url("img/THP.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .thP:hover{
+        background: url("img/THPH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .ktlB{
+        background: url("img/ktlB.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .ktlB:hover{
+        background: url("img/ktlBH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .ktlP{
+        background: url("img/ktlP.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .ktlP:hover{
+        background: url("img/ktlPH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .sqP{
+        background: url("img/SqP.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .sqP:hover{
+        background: url("img/SqPH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .sqB{
+        background: url("img/SqB.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .sqB:hover{
+        background: url("img/SqBH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .jisoo{
+        background: url("img/jisoo.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .jisoo:hover{
+        background: url("img/jisooH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .jennie{
+        background: url("img/jennie.jpg")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .jennie:hover{
+        background: url("img/jennieH.jpg")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .rose{
+        background: url("img/rose.jpg")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .rose:hover{
+        background: url("img/roseH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .lisa{
+        background: url("img/lisa.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        
+    }
+    .lisa:hover{
+        background: url("img/lisaH.png")no-repeat center center;
+        background-size: cover;
+        height:270px;
+        width:250px;
+        scale:1.1;
+        background-color: white;
+    }
+    
+    .albums a{
+       text-decoration: none;
+    }
+    
+    
+    .albums a:hover{
+        cursor:default;
+     }
+    
+    
+     .merchitems a{
+        text-decoration: none;
+     }
+     
+     
+     .merchitems2 a:hover{
+         cursor:default;
+      }
+    
+      .merchitems2 a{
+        text-decoration: none;
+     }
+     
+     
+     .merchitems a:hover{
+         cursor:default;
+      }
+
+
+
+
+
+
+
+
+
+  }
